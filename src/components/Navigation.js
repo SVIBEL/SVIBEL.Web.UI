@@ -40,10 +40,13 @@ class Navigation extends React.Component {
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul className="nav navbar-nav navbar-right">
                     <li>
-                        <a className="page-scroll" href="#download">Home</a>
+                        <a className="page-scroll" href="">Home</a>
                     </li>
                     <li>
-                        <a className="page-scroll" href="#features">Our Work</a>
+                        <a className="page-scroll" href="#who-we-are">Who We Are</a>
+                    </li>
+                    <li>
+                        <a className="page-scroll" href="#team">Team</a>
                     </li>
                     <li>
                         <a className="page-scroll" href="#contact">Contact</a>
