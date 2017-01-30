@@ -19,10 +19,10 @@ const MainHero = () =>
                     </div>
 
                     <div className="col-md-2 col-md-offset-5">
-                            <div className="brand-names" style={{'margin-left': '55px'}}>
-                                <div style={{float:'left'}}>PETER</div> 
-                                <div className="brand-plus" style={{float:'left'}}><i className="fa fa-plus" /></div> 
-                                <div style={{float:'left'}}>AKOS</div>
+                            <div className="brand-names">
+                                <div className="brand-item">PETER</div> 
+                                <div className="brand-item brand-plus"><i className="fa fa-plus" /></div> 
+                                <div className="brand-item">AKOS</div>
                             </div>
                     </div>
                 </div>

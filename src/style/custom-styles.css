@@ -77,7 +77,7 @@ p {
   color: #fcbd20;
 }
 .navbar-default .navbar-header .navbar-toggle {
-  color: #222222;
+  color: white;
   padding: 8px 10px;
 }
 .navbar-default .nav > li > a {
@@ -101,6 +101,10 @@ p {
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
 @media (min-width: 768px) {
   .navbar .navbar-nav {
         display: inline-block;
@@ -150,6 +154,7 @@ p {
     color: #fdcc52;
   }
 }
+
 .img-gray{
     filter: grayscale(1);
 }
@@ -213,6 +218,36 @@ header .device-container {
 header .device-container .screen img {
   border-radius: 3px;
 }
+
+header .brand{
+    position: absolute;
+    left: 0;
+    top: -10%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    margin: 0;
+    z-index: 3;
+    -webkit-transition: left 400ms linear;
+    -moz-transition: left 400ms linear;
+    -ms-transition: left 400ms linear;
+    -o-transition: left 400ms linear;
+    transition: left 400ms linear;
+}
+header .brand .brand-plus{
+    color:red;
+}
+header .brand-names{
+    display: table;
+    margin: auto;
+    margin-top:72%;
+}
+header .brand-item{
+    
+}
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -237,7 +272,7 @@ header .device-container .screen img {
     max-height: calc(0vh);
     margin: 100px auto 0;
   }
-
+  
   header .brand{
     position: absolute;
     left: 0;
@@ -256,12 +291,14 @@ header .device-container .screen img {
     transition: left 400ms linear;
   }
   header .brand .brand-plus{
-    color:red;
+      color:red;
   }
-
   header .brand-names{
     display: table;
     margin: auto;
+  }
+  header .brand-item{
+    float:left;
   }
 }
 
