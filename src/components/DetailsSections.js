@@ -48,7 +48,7 @@ const DetailsSections = () =>
                                         <img className="img-circle img-gray" src="https://randomuser.me/api/portraits/men/33.jpg"/>
                                         <h3>Akos Beleznay</h3>
                                         <p className="text-muted">
-                                            At Svibel we create intuitive software applications in complex domains. Our experienced team challenges assumptions, yet work in partnership, to deliver truly innovative solutions.
+                                            Akos is responsible for the management of business operations and analysis, CRM, as well as the marketing strategies of Svibel.
                                         </p>
                                     </div>
                                 </div>
