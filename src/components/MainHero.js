@@ -7,10 +7,10 @@ const MainHero = () =>
                 
 
                 <div className="col-sm-6">
-                    <img className="img-responsive hero-profile" src="http://carelpiethein.com/en/images/image-carel.jpg"/>
+                    <img className="img-responsive hero-profile" src="../../media/peter.JPG"/>
                 </div>
                 <div className="col-sm-6">
-                    <img className="img-responsive hero-profile" src="http://carelpiethein.com/en/images/image-piet.jpg"/>
+                    <img className="img-responsive hero-profile" src="../../media/akos.JPG"/>
                 </div>
                 
                 <div className="container brand">

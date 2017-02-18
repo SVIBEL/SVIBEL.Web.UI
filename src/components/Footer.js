@@ -9,7 +9,7 @@ const Footer = () =>
         </div>
         </section>
         <div className="container">
-            <p>&copy; 2016 SVIBEL. All Rights Reserved.</p>
+            <p>&copy; 2017 SVIBEL -  <a href="http://www.kkdigitalimages.ca/" target="_blank">Kristin Kobayashi photography</a> - All Rights Reserved.</p>
         </div>
     </footer>;
 
