@@ -556,12 +556,17 @@ body {
 }
 
 .who-we-are{
-width: 100%;
+    height:100%;
     background: linear-gradient( rgba(20, 20, 20, 0.44), rgba(20, 20, 20, 0.44)), url(../../media/group2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     color: white;
+}
+@media (min-width: 768px) {
+  .who-we-are{
+    background: linear-gradient( rgba(20, 20, 20, 0.44), rgba(20, 20, 20, 0.44)), url(../../media/group2-mobile.jpg) no-repeat center center fixed;
+  }
 }
 
 .profile{
