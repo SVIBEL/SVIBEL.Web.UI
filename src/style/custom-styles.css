@@ -253,13 +253,13 @@ header .img-logo{
 
 @media (min-width: 375px) {
   header .img-logo{
-    height:246.5px;
+    height:341px;
   }
 }
 
 @media (min-width: 425px) {
   header .img-logo{
-    height:208.5px;
+    height:444.5px;
   }
 }
 
@@ -316,9 +316,6 @@ header .img-logo{
     float:left;
   }
 
-  header .img-logo{
-    height:285px;
-  }
 }
 
 @media (min-width: 992px) {
