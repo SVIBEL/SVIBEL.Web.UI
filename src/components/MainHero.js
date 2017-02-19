@@ -15,7 +15,7 @@ const MainHero = () =>
                 
                 <div className="container brand">
                     <div className="col-sm-12">
-                            <img className="" src='../../media/logo.png' />
+                            <img className="img-logo" src='../../media/logo.png' />
                     </div>
 
                     <div className="col-md-2 col-md-offset-5">
