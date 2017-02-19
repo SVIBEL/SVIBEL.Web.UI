@@ -230,7 +230,7 @@ header .brand .brand-plus{
 header .brand-names{
     display: table;
     margin: auto;
-    margin-top:100%;
+    margin-top:113%;
 }
 header .brand-item{
     
@@ -556,16 +556,18 @@ body {
 }
 
 .who-we-are{
-    height:100%;
+    width:100%;
     background: linear-gradient( rgba(20, 20, 20, 0.44), rgba(20, 20, 20, 0.44)), url(../../media/group2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     color: white;
+    background-attachment:scroll;
 }
 @media (min-width: 768px) {
   .who-we-are{
-    background: linear-gradient( rgba(20, 20, 20, 0.44), rgba(20, 20, 20, 0.44)), url(../../media/group2-mobile.jpg) no-repeat center center fixed;
+    height:auto;
+    background-attachment:fixed;
   }
 }
 
