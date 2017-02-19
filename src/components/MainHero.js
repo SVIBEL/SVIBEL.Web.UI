@@ -6,10 +6,10 @@ const MainHero = () =>
             <div className="row">
                 
 
-                <div className="col-md-6 col-sm-6">
+                <div className="col-md-6">
                     <img className="img-responsive hero-profile" src="../../media/peter.JPG"/>
                 </div>
-                <div className="col-md-6 col-sm-6">
+                <div className="col-md-6">
                     <img className="img-responsive hero-profile" src="../../media/akos.JPG"/>
                 </div>
                 
